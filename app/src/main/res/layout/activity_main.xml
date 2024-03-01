@@ -8,9 +8,10 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="150dp"
+        android:layout_width="410dp"
         android:layout_height="200dp"
-        android:src="#2c2c2c"></ImageView>
+        android:scaleType="centerCrop"
+        android:src="@drawable/logocat" />
 
     <TextView
         android:layout_width="wrap_content"
